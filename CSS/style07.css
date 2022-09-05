@@ -4,6 +4,11 @@
 
 .caja1{
     border: black solid 3px;
+    /*Pueden estar agrupados así:
+    background-color: pink;
+    border-color: blue;
+    border-style: groove;
+    */
     width: auto;
     height: auto;
     overflow: scroll;
@@ -15,9 +20,15 @@
 .caja2{
     background-color:orange;
     width: auto;
-    height: auto    ;
+    border-style: dashed;
+    height: auto;
     overflow: auto;
     margin-top: 15px;
+    border-width: 4px 4px 4px 4px;
+    border-color: blueviolet;
+    padding: 15px;
+    box-sizing: border-box;
+    /*border-etc*/
 }
 .caja3{
     background-color: pink;
@@ -27,4 +38,8 @@
     width: 400px;
     height: 400px;
     max-width: 400px;
+    margin-top: 30px;
+    box-sizing: border-box;
+    /*Margin-top margen con la caja de arriba, separación entre párrafos*/
 }
+
