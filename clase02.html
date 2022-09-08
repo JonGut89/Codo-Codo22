@@ -72,12 +72,27 @@
     <p><b>Alimentos lácteos</b></p>
     <dl>
         <dt>Leche</dt>
-        <dd>Descremada</dd>
-        <dd>Entera</dd>
+            <dd>Descremada</dd>
+            <dd>Entera</dd>
         <dt>Queso</dt>
-        <dd>Fontina</dd>
-        <dd>Mozzarella</dd>
+            <dd>Fontina</dd>
+            <dd>Mozzarella</dd>
     </dl>
+
+<h2>Anidando listas</h2>
+<p>Ciudades del mundo</p>
+<ul>
+    <li>Argentina</li>
+        <ol>
+            <li>Buenos Aires</li>
+            <li>Bariloche</li>
+        </ol>
+    <li>Uruguay</li>
+        <ol>
+            <li>Montevideo</li>
+            <li>Punta del Este</li>
+        </ol>
+</ul>
 
 <p>Enlaces Absolutos y Relativos</p>
     <a href="http://www.google.com">Ir a google...</a><br>
@@ -130,6 +145,35 @@ Error aliquid molestiae ullam aut a quibusdam alias nam libero, provident magnam
 Repellat autem quo cumque voluptates rem, reiciendis rerum vel delectus tempore corporis dolore reprehenderit, dolorem itaque odio, deleniti voluptatum ex! Aliquid dolor culpa quae ducimus beatae officiis obcaecati, adipisci cumque!</i>
 <b> Est illo omnis reprehenderit inventore debitis excepturi quos aliquid laudantium temporibus quaerat. Accusamus doloribus sequi, delectus,</b> necessitatibus inventore nostrum repudiandae obcaecati vel officia dolore saepe aliquid omnis? Corrupti, quidem quam!
 <strong> Quam eligendi vel praesentium laborum! Impedit eveniet quo dolore facilis minima pariatur reiciendis alias obcaecati beatae! Odio saepe adipisci consequatur architecto eum a, iure maiores, cupiditate reprehenderit itaque quia in!</strong></p>
+
+<table>
+    <tr>
+        <td>Celda1, linea 1</td>
+        <td  rowspan="2">Celda2, linea 1</td>
+        <!--Expandirá la celda hacia abajo fusionándose con la celda inferior..-->
+    </tr>
+    <tr>
+        <!--Fusiona la celda en cuestión con su vecina derecha.-->
+        <td colspan="2">Celda 1, linea 2</td>
+        <td>Celda 2, linea 2</td>
+    </tr>
+</table>
+<!--Cada una de estas líneas, llamada fila, es definida por otra etiqueta y su cierre:
+TR (Table Register).-->
+<table>
+<!--TD (Table Data). Dentro de ésta y su cierre será donde
+coloquemos nuestro contenido, el contenido de cada celda.-->
+    <tr>
+        <th>Encabezado 1, linea 1</th>
+        <th>Encabezado 2, linea 1</th>
+    </tr>
+<!--TH (Table Header), que sirve para crear una
+celda cuyo contenido posea un título o cabecera de la tabla.-->
+    <tr>
+        <td width="70">Celda 1, linea 2</td>
+        <td width="70">Celda 2, linea 2</td>
+    </tr>
+</table>
 
 </body>
 </html>
