@@ -1,0 +1,9 @@
+.texto{
+    height: auto;
+    width: auto;
+    border: 1px solid black;
+    font-style: italic;
+    text-align: justify;
+    padding: 5px;
+    background-color: aquamarine;
+}

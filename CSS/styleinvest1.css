@@ -1,12 +1,45 @@
-div{
-    line-height: 200px;
-    height: 200px;
+.primero{
+    line-height: 150px;
+    height: 150px;
     border: 3px solid black;
     text-align: center;
 }
-/*se crea un cuadro con border y se introduce el texto alineado al centro en el div*/
-span{
+/*se crea un cuadro con border y se introduce el texto alineado al centro en 
+el div. cambiamos la propiedad line-height a normal en span para que las 
+múltiples líneas de texto tengan la line-height normal. El valor de 
+inline-block comenzará la siguiente línea del texto justo debajo de la línea 
+de arriba. El valor middle de la propiedad alineación vertical colocará el 
+texto en el medio del eje vertical.*/
+.uno{
     display: inline-block;
     vertical-align: middle;
     line-height: normal;
+}
+/*Podemos establecer display en inline-block y vertical-align en middle para 
+lograr la alineación vertical de varias líneas de texto.*/
+
+.segundo{
+    display: table;
+    height: 200px;
+    width: 20%;
+    text-align: center;
+    border: 3px solid black;
+}
+.dos{
+    display: table-cell;
+    vertical-align: middle;
+}
+.menu{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: small;
+}
+.transformed{
+    transform: rotateX(45deg);
+    background-color: blue;
+}
+.skew4{
+    height: 200px;
+    width: 20%;
+    text-align: center;
+    border: 3px solid black;    
 }
