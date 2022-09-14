@@ -1,0 +1,55 @@
+body{
+    background-color: aqua;
+    font-family : arial;
+color : black;
+}
+video{
+    height: 400px;
+    width: 400px;
+}
+iframe{
+    width: 50%;
+    height: 400px;
+    background-color: aqua;
+}
+table{
+    font-size: 20px;
+    background-color: chartreuse;
+    text-align: center;
+    font-weight: bold;
+}
+.output{
+    font: 1em 'Fira Sans', sans-serif;
+}
+.nota{
+    font-style: italic;
+    font-weight: bold;
+}
+.editorial{
+    background: rgb(255, 0, 0, .25);
+    padding: 10px;
+}
+
+.editorial:before{
+    content: 'Editor:';
+}
+blockquote{
+    background: #eee;
+    border-radius: 5px;
+    margin: 16px 0;
+}
+blockquote p{
+    padding: 15px;
+}
+cite{
+    margin: 16px 32px;
+}
+blockquote p::before{
+    content: '\201C';
+}
+blockquote p::after{
+    content: '\201D';
+}
+[contenteditable='true']{
+    caret-color: red;
+}

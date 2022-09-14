@@ -4,9 +4,114 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/clase03.css">
+    <link rel="icon" href="imagenes/pica.ico">
     <title>Clase 03</title>
 </head>
-<body>
-    
+<body> 
+    <div>
+        <audio controls>
+            <source src="Music/Chijra.mp3" type="audio/mpeg">
+            La página no puede reproducir audio.
+        </audio>
+    </div>
+    <br><br>
+    <iframe width="1520" height="589" src="https://www.youtube.com/embed/TdZXVVoDUWs?list=RDTdZXVVoDUWs" title="Sech - 42 (Acústico)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>Sech</iframe>
+    <br><br><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1641.9041837822035!2d-58.39343314175405!3d-34.60900699511454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccac2e8e02371%3A0xc7158e90c4acdcac!2sRivadavia%201815%2C%20C1033AAI%20CABA!5e0!3m2!1ses!2sar!4v1662666871514!5m2!1ses!2sar" width="600" height="450" style="border: 1;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<br><br>
+    <!--<table>: Representa a todo el elemento tabla.
+<tr>: Table row: representa una ﬁla o registro
+<td>: Table data cell: representa a cada celda.
+<th>: Table header: representa a una celda de-->
+
+    <table>
+        <tr>
+            <th>DIA</th>
+            <th>MES</th>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>Agosto</td>
+        </tr>
+        <tr>
+            <td>14</td>
+            <td>Septiembre</td>
+        </tr>
+    </table>
+
+<!--colspan (column span = número de celdas a abarcar)
+rowspan (row span = número de celdas a abarcar).-->
+<br>
+<table>
+    <tr>
+        <td>ID</td>
+        <td colspan="2">EMAIL-NOMBRE</td>
+    </tr>
+    <tr>
+        <td rowspan="2">1-2</td>
+        <td>jgutierrez@gmail.com</td>
+        <td>Jonathan</td>
+    </tr>
+    <tr>
+        <td>mica@gmail.com</td>
+        <td>Micaela</td>
+    </tr>
+</table><br>
+
+<table border="1">
+    <tr>
+        <td rowspan="3">Zona Sur</td>
+        <td>Avellaneda</td>
+        <td>Banfield</td>
+    </tr>
+    <tr>
+        <td colspan="2">Banfield</td>
+    </tr>
+    <tr>
+        <td>Quilmes</td>
+        <td>Berazategui</td>
+    </tr>
+    <tr>
+        <td rowspan="2">Zona Oeste</td>
+        <td colspan="2">Moreno</td>
+    </tr>
+    <tr>
+        <td>Merlo</td>
+        <td>Haedo</td>
+    </tr>
+</table>
+
+    <p>Periodista:Gracias por la entrevista.</p>
+    <p class="nota editorial">Esta una nota realizada en 2019.-</p>
+    <p>Periodista: Cómo fueron sus comienzos?</p>
+    <p class="nota">[Podés continuar leyendo esta nota en la pag.20]</p>
+
+    <blockquote contenteditable="true">
+        <p>Edite el contenido de este texto</p>
+    </blockquote>
+    <cite contenteditable="true">Puede escribir algo aquí</cite>
+
+    <h2>Formulario</h2>
+
+    <form action="link" method="post" target="_blank">
+        <label for="firstname">Nombre:</label>
+        <input size="30" type="text" name="firstname" id="firstname"><br><br>
+       
+        <label for="mail">Email:</label>
+        <input size="30" type="email" name="mail" id="mail"><br><br>
+       
+        <label for="dato">Fecha de nacimiento:</label>
+        <input size="30" type="date" name="dato" id="dato"><br><br>
+        
+        <label for="tel">Teléfono:</label>
+        <input size="3" type="number" name="tel" id="tel"><br><br>
+
+        <label for="pass">Contraseña:</label>
+        <input size="8" type="password" name="pass" id="pass"><br>
+
+        <br><input type="submit" value="Enviar datos">
+        
+    </form>
+
 </body>
 </html>

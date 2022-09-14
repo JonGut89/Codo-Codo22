@@ -1,0 +1,17 @@
+*{
+    background-color: pink;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 100px 200px 300px;
+    grid-gap: 20px;
+    grid-template-rows: repeat(3, 200px);
+    row-gap: 20px;
+}
+
+div{
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+}
