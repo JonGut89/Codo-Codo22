@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Compras</title>
+</head>
+<body>
+    <h1>Lista de faltantes</h1>
+    <br>
+    <div>
+        <form action="post">
+            <select name="Untable" multiple>
+                <option value="1">Dulce de leche</option>            
+                <option value="2">Mermelada</option>            
+                <option value="3">Queso crema</option>            
+        </select>
+        
+        <input type="submit" value="Enviar">
+
+        </form>
+    </div>
+    
+    <!--para practicar-->
+<form action="malito:mail@gmail.com" method="post" enctype="text/plain">
+Nombre<input type="text" name="nombre" size="30px" maxlength="100px">
+<br>
+Email<input type="text" name="email" size="25" maxlength="100px" value="@">
+<br>
+Población<input type="text" name="población" size="20px" maxlength="60px">
+<br>
+Sexo
+<br>
+<input type="radio" name="sexo" value="Varon" checked> Hombre
+<br>
+<input type="radio" name="sexo" value="Mujer" checked> Mujer
+<br><br>
+Frecuencia de los viajes
+<br>
+<select name="utilizacion" id="#">
+<option value="1">Varias veces al día</option>
+<option value="2">Una vez al día</option>
+<option value="3">Varias veces al dia</option>
+<option value="4">Varias veces al mes</option>
+</select>
+<br>
+<br>
+Comentarios sobre su satisfacción personal
+<br>
+<textarea cols="30" rows="7" name="comentarios"></textarea>
+<br>
+<br>
+<input type="checkbox" name="recibir_info" checked> Deseo recibir notificación de novedades en las líneas de autobuses.
+<br>
+<br>
+<input type="submit" value="Enviar formulario">
+<br>
+<br>
+<input type="Reset" value="Borrar todo">
+</form>
+</body>
+</html>

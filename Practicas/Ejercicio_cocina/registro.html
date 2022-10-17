@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Iframes_form.css">
+    <title>Registro</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a style="background-color: chocolate;" href="index.html">Home</a>
+            <a style="background-color: chocolate;" href="acercademi.html">Acerca de</a>
+            <a style="background-color: chocolate;" href="contacto.html">Contacto</a>
+            <a style="background-color: chocolate;" href="registro.html">Registrese</a>
+            <a style="background-color: chocolate;" href="sucursales.html">Sucursales</a>
+            <br>
+        </nav>
+    </header>
+            <h1><u>La cocina de Juan</u></h1>
+        </div>
+
+        <article class="registrese">
+            <h2>Formulario de registro</h2>
+            
+            <form action="show_data.html" target="_blank">
+            <fieldset>
+                <legend><b>Ingreso de datos</b></legend>
+                <label for="firstname">Nombre:</label>
+                <input size="15" maxlength="20" type="text" id="firstname" placeholder="Ingrese su nombre aquí..."><br><br>
+               
+                <label for="lastname">Apellido:</label>
+                <input size="15" maxlength="20" type="text" id="lastname" placeholder="Ingrese su apellido aquí..."><br><br>
+               
+                <label for="direction">Domicilio:</label>
+                <input size="15" maxlength="30" type="text" id="direction" placeholder="Ingrese su domicilio aquí..."><br><br>
+               
+                <label for="city">Ciudad:</label>
+                <input size="15" maxlength="30" type="text" id="city" placeholder="C.A.B.A."><br><br>
+               
+                <label for="zipcode">Código Postal:</label>
+                <input size="8" maxlength="10" type="number" id="zipcode" placeholder="1439"><br><br>
+               
+                <label for="birthdate">Fecha de nacimiento:</label>
+                <input size="15" maxlength="10" type="date" id="birthdate" placeholder=""><br><br>
+            <!--radio: selecciona solo una opcion-->
+            
+            <p>Género:
+                <input type="radio" name="gender" value="hombre" checked>Hombre
+                <input type="radio" name="gender" value="mujer" checked>Mujer
+                <input type="radio" name="gender" value="otro" checked>Otro
+                </p>
+                <p>Estudios:
+                <input type="checkbox" name="estudio" value="primarios">Primarios
+                <input type="checkbox" name="estudio" value="secundarios">Secundarios
+                <input type="checkbox" name="estudio" value="terciarios">Terciarios
+                <input type="checkbox" name="estudio" value="universitarios">Universitarios
+                <input type="checkbox" name="estudio" value="otro">Otro
+                </p>
+                <!--checkbox: (cuadrado)selecciona varias opciones-->
+                <input type="submit" value="Enviar">
+            </fieldset>    
+<!--
+                <select name="sexo" id="genero">
+                    <option value="hombre">Hombre</option>
+                    <option value="mujer">Mujer</option>
+                    <option value="otro">Otro</option>
+                </select><br>
+-->
+            </form><br>
+            <p>Si hace click en el boton "Enviar", la información se enviará a la página "show_data.html"</p>
+                        
+        </article>
+
+        <footer>
+            <a href="https://m.facebook.com/?locale=es_ES&_rdr"> <img src="imagen/Facebook.ico" alt="" > </a>
+            <a href="https://discord.com/"> <img src="imagen/discord.ico" alt=""> </a>
+            <a href="https://twitter.com/?lang=es"> <img src="imagen/Twitter.ico" alt=""> </a>
+            <a href="https://www.instagram.com/"> <img src="imagen/instagram.ico" alt=""> </a>
+            <a href="https://ar.linkedin.com/"> <img src="imagen/Linkedin.ico" alt=""> </a>
+            <br>
+            <a href="#"><u>Derechos reservados @2022</u></a>
+        </footer>
+
+</body>
+</html>

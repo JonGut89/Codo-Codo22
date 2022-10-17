@@ -1,0 +1,122 @@
+.btn{
+    font-family: 'Courier New', Courier, monospace;
+    
+    font-size: 20px;
+    color: white;
+    border: 3px solid black;
+    font-weight: bold;
+    padding: 15px;
+    letter-spacing: 3px;
+    }
+
+a:hover{
+        background-color: rgb(242, 244, 247);
+        color: rgb(186, 55, 35);
+    }
+
+.contenedor-btn{
+    padding: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.opc{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    padding-left: 10px;
+    color: red;
+    text-decoration: none;
+    list-style-type: disclosure-closed;
+}
+
+.nav-opc{
+    justify-content: space-between;
+}
+
+.video {
+    justify-content: left;
+    display: flex;
+}
+
+.santa{ 
+    padding: 15px;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: solid;
+    color: black;
+    font-weight: normal;
+    letter-spacing: 15px;
+    text-shadow: 5px 5px 5px black;
+    
+    }
+
+p{
+    font-size: 20px;
+    padding: 10px;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    text text-decoration: border;
+}
+
+h1{
+    color: red;
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h4{
+    color: red;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2{
+    color: red;
+    padding: 10px;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+h5{
+    color: black;
+    padding: 10px;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.listas{
+    text-decoration: none;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+/*Comienzo de style*/
+
+/*Menu izquierdo*/
+.menu{
+    font-size: 20px;
+    background-color: aqua;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.contenedor{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    
+}
+#secretaria{
+    font-size: 15px;
+}

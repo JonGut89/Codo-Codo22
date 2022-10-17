@@ -1,0 +1,20 @@
+table{
+    color: ;
+
+}
+th{
+    text-align: center;
+    font-size: small;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: aqua;
+}
+th{
+    width: 70px;
+    color: red;
+    font-style: italic;
+
+}
+iframe{
+    width: 80%;
+    height: 700px
+}

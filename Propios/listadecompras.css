@@ -1,0 +1,18 @@
+body{
+    background-color: darkkhaki;
+}
+
+div{
+    font-size: 15px;
+    height: auto;
+    width: auto;
+    margin-left: 5%;
+    color: red;
+}
+h1{
+    text-align: center;
+    color: aqua;
+}
+dt{
+    color: white;
+}

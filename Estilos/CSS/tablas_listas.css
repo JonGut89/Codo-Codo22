@@ -1,0 +1,33 @@
+.nav{
+    background-color: orange;
+    
+}
+h1{
+    text-align: center;
+}
+h2{
+    margin-left: 15px;
+}
+img{
+    margin-left: 15px;
+    height: 40%;
+    width: 40%;
+}
+
+footer{
+    text-align: center;
+    background-color: orange;
+}
+
+p{
+    margin-left: 15px;
+}
+table{
+    margin-left: 15px;
+    font-style: italic;
+}
+ul{
+    margin-left: 15px;
+    font-style: italic;
+}
+/*HTML Practica 02 unidad 02*/
